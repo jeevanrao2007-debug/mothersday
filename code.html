@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A Tribute to Mom</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#fee2e2",
+                        "on-secondary": "#ffffff",
+                        "primary-fixed-dim": "#a5b4fc",
+                        "on-error-container": "#991b1b",
+                        "inverse-surface": "#2e3040",
+                        "on-primary-fixed": "#1e1b4b",
+                        "on-primary-container": "#e0e2ff",
+                        "on-surface-variant": "#585a68",
+                        "surface-container-low": "#e5e7ed",
+                        "on-secondary-container": "#585a68",
+                        "error": "#dc2626",
+                        "on-primary-fixed-variant": "#4338ca",
+                        "secondary-container": "#d8dae6",
+                        "on-background": "#2e3040",
+                        "tertiary-fixed": "#ede9fe",
+                        "tertiary-fixed-dim": "#c4b5fd",
+                        "inverse-on-surface": "#e8eaf0",
+                        "surface-container-high": "#dcdee4",
+                        "primary": "#6366f1",
+                        "background": "#e8eaf0",
+                        "on-surface": "#2e3040",
+                        "on-secondary-fixed-variant": "#404252",
+                        "surface-container": "#e2e4ea",
+                        "secondary": "#6c6e7e",
+                        "secondary-fixed": "#d8dae6",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "surface-variant": "#dcdee4",
+                        "secondary-fixed-dim": "#b8baca",
+                        "outline-variant": "#d0d2dc",
+                        "outline": "#8a8c9a",
+                        "primary-container": "#818cf8",
+                        "primary-fixed": "#e0e2ff",
+                        "tertiary-container": "#a78bfa",
+                        "surface": "#e8eaf0",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-container": "#3b1f63",
+                        "surface-container-lowest": "#f0f2f8",
+                        "surface-container-highest": "#d6d8de",
+                        "inverse-primary": "#a5b4fc",
+                        "tertiary": "#7c3aed",
+                        "surface-dim": "#d4d6dc",
+                        "surface-bright": "#edeef4",
+                        "surface-tint": "#6366f1",
+                        "on-tertiary-fixed": "#2e1065"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "display": ["Plus Jakarta Sans"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #e8eaf0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .neomorph-raised {
+            box-shadow: 6px 6px 12px rgba(0,0,0,0.08), -6px -6px 12px rgba(255,255,255,0.6);
+        }
+        .neomorph-inset {
+            box-shadow: inset 4px 4px 8px rgba(0,0,0,0.06), inset -4px -4px 8px rgba(255,255,255,0.5);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface">
+<!-- TopAppBar -->
+<header class="flex justify-between items-center w-full px-6 py-4 sticky top-0 z-50 bg-background shadow-[6px_6px_12px_rgba(0,0,0,0.08),-6px_-6px_12px_rgba(255,255,255,0.6)]">
+<div class="text-xl font-headline font-semibold text-primary dark:text-primary-fixed-dim">A Tribute to Mom</div>
+<nav class="hidden md:flex space-x-8">
+<a class="text-primary dark:text-primary-fixed-dim font-semibold border-b-2 border-primary hover:text-primary transition-colors duration-200" href="#">Home</a>
+<a class="text-secondary dark:text-secondary-fixed-dim font-medium hover:text-primary transition-colors duration-200" href="#gallery">Gallery</a>
+<a class="text-secondary dark:text-secondary-fixed-dim font-medium hover:text-primary transition-colors duration-200" href="#messages">Messages</a>
+<a class="text-secondary dark:text-secondary-fixed-dim font-medium hover:text-primary transition-colors duration-200" href="#notes">Notes</a>
+</nav>
+<button class="neomorph-raised px-6 py-2 rounded-lg text-primary font-semibold active:shadow-[inset_4px_4px_8px_rgba(0,0,0,0.06),inset_-4px_-4px_8px_rgba(255,255,255,0.5)] active:scale-95 transition-all">
+            Share
+        </button>
+</header>
+<main class="max-w-7xl mx-auto px-6 py-12">
+<!-- Hero Section -->
+<section class="mb-24">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="order-2 lg:order-1">
+<h1 class="text-5xl md:text-6xl font-headline font-semibold text-on-surface mb-6 leading-tight">
+                        Happy <span class="text-primary">Mother's Day,</span> Mom
+                    </h1>
+<p class="text-lg text-on-surface-variant font-body mb-8 max-w-lg leading-relaxed">
+                        To the world you are a mother, but to our family you are the world. Today we celebrate your endless love, strength, and grace.
+                    </p>
+<div class="flex gap-4">
+<button class="neomorph-raised px-8 py-3 rounded-xl bg-background text-primary font-semibold flex items-center gap-2 hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined">favorite</span>
+                            Our Memories
+                        </button>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<div class="neomorph-raised p-4 rounded-xl rotate-2">
+<img alt="Hero Image of Mother and Child" class="rounded-lg w-full aspect-[4/5] object-cover" data-alt="A warm and tender portrait of a mother smiling joyfully while holding her child in a softly lit, modern interior. The lighting is golden and ethereal, highlighting the silk textures of their clothing and the serene atmosphere. The overall aesthetic follows a high-key light-mode style with soft indigo accents, creating a heartfelt and premium visual experience that feels both intimate and professional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlfd4jUYs5k0FN-_p-c4wMQfc-qNvLqYtx9Y4gxEkhTA-H3IkouZadHiq2_pAaqhey1fRF6LElknd7JMr_6HNhXJgsFs5zfAfzkTcCFE1-0T5uMI9Plga9XRiDtkxFP_5ekSU7107_D5zHG_wuUQXI7oiyXf3qssVla-Q-CDZJlV5SROjwyBADcsK4_aQ2mLm66-PwwLNnucIcULBo5AKN0TrC32aaNHB3blo09wFmrHdJI-BO4jk6PxwgI2ulzTE8PzeBcqtqCHRJ"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery Section -->
+<section class="mb-24" id="gallery">
+<div class="mb-12">
+<h2 class="text-3xl font-headline font-semibold text-on-surface text-center">Moments Through Time</h2>
+<div class="h-1 w-20 bg-primary mx-auto mt-4 rounded-full"></div>
+</div>
+<div class="flex flex-col gap-12 max-w-2xl mx-auto">
+<!-- Image 2 -->
+<div class="neomorph-raised p-4 rounded-2xl">
+<img alt="Early Joys" class="rounded-xl w-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uj3J2J81IaJXNXFK_b8_-8Fskoi8vvbRL5WmzXVhkJs9Wl8DbUp-8j4cW6INxSH9wmwY91xythD8LT-yNiOKm28S10EHYkPf5810IjnXs-pF2SIijS8qyUfzOBlf8K8SuHDwcf_JvDViyetUhs1vNWTeookb5XGckG0Pr0DYprj-MyUnichL1ZmEPjLEAJVjRqbQIv9hzI0A6Uj4l7Ww9lC6OBNete27g-fdDU_qXJCBOCiH-rqGRr7__HEKFetzJ79NbsCUuK8BtA"/>
+<div class="mt-4 text-center">
+<p class="text-on-surface-variant font-medium">Early Joys</p>
+</div>
+</div>
+<!-- Image 3 -->
+<div class="neomorph-raised p-4 rounded-2xl">
+<img alt="Dedication &amp; Growth" class="rounded-xl w-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0ui3Ui4DrbPGxj86XyJBjSBA7gQLxehdif4Qj00yjHQkT4dAkJN1N8altQFwAryGAtDT4xVxGTkUaxy91DWcAJX9E2sGNkAPl0KVZaOl7P0TtM9-hu5XgoiwVTKHXvCvIH4Z_qb8X9kOw8op_03FyKlJJ4gcfYSLxQ529vxX5Y6tGa3alHUw0cLCDq1IEFTCBZY6mZg2parFI-b6xh7ey8w91NfybeBrzVUGrIhjVPA5Gb0QpkJpppdyPqMC4WEayCyyoIrDs6uRWA"/>
+<div class="mt-4 text-center">
+<p class="text-on-surface-variant font-medium">Dedication &amp; Growth</p>
+</div>
+</div>
+<!-- Image 4 -->
+<div class="neomorph-raised p-4 rounded-2xl">
+<img alt="A Growing Bond" class="rounded-xl w-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uhgiChHgq8YHHCpYn5r4B9PbAUe0dqliYVf7WnIRvPKaTwkHBkwmc5rPvQnM0O5P-_r0-aM8pkMUDNKDugBwAu9Dgy5KVVf7G8Xu9ZAivr_4TLB6cVeU3KIceBNHvdlmEtH9BztFA7O95qs8S-BvXLR1wZukAQD2DF_ayCg_kOyudv5uRBJRvwEJ2VylF5s432qX8Vdwkv_5ZtdmT7zggyrUbzicIStJp1Kk6GUcJSpZDJBI2GjSy1ca8b0KTUhp2BnR5I-FKHBhQ"/>
+<div class="mt-4 text-center">
+<p class="text-on-surface-variant font-medium">A Growing Bond</p>
+</div>
+</div>
+<!-- Image 5 -->
+<div class="neomorph-raised p-4 rounded-2xl">
+<img alt="Timeless Grace" class="rounded-xl w-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0ugXpunoF1NrhnQnkHOkySvpUzZ9-YJutFE1he-K8dWH0OXvNBtmeJ8RiYp9StR-n1bCq8MbghUzad2ftgzfayrka_dgOMoWQQpMHt113Mr9bk8EmFDm_w9QQt4ZJDwGamPuiO31YKBi699xxsb8YEKv7GZ_fewNzTmd3BlTH8CkVPEYVtCFmoN9RNAMJ89_O4v6EvK02Lrs1r6WrEMNowbmup6Dy7oTI1UtymrQUTI2fboOR3ivKrSM5XMOmivTRhiTVgqNQzNjQw"/>
+<div class="mt-4 text-center">
+<p class="text-on-surface-variant font-medium">Timeless Grace</p>
+</div>
+</div>
+<!-- Image 6 -->
+<div class="neomorph-raised p-4 rounded-2xl">
+<img alt="Radiant Beauty" class="rounded-xl w-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uh4f1PDMAgD_KyUQiyFeoCqr8hV7I6T_fpaXcRBVwK6SBIHHouTv5jL7L-8wEn5lYyMLX3tAufp3QbHDSdtp3ZnrRDyCVq-1hhwnO8SULKaMFwJTNHK-O9FtwJhCDnHToW6o9B2t2CbwykRu5jDUp7Gw3XJkhJHaUCkT60dBv3L0VPa7ovM5QxgbkAVyWMhgG4ADzCnYFI3_EQXl5L2Th5PTzd4B-oePqlhrRtBpLjbcoWF2X2zJh-a39eZsJrn9urcC_UcAHLWi4I"/>
+<div class="mt-4 text-center">
+<p class="text-on-surface-variant font-medium">Radiant Beauty</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Message Section -->
+<section class="mb-24" id="messages">
+<div class="max-w-3xl mx-auto neomorph-raised p-12 rounded-3xl relative overflow-hidden">
+<!-- Decorative background elements -->
+<div class="absolute -top-10 -right-10 w-40 h-40 bg-primary/5 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-10 -left-10 w-40 h-40 bg-tertiary/5 rounded-full blur-3xl"></div>
+<div class="relative z-10">
+<div class="flex justify-center mb-8">
+<div class="neomorph-inset p-4 rounded-full">
+<span class="material-symbols-outlined text-primary text-4xl" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+</div>
+</div>
+<h2 class="text-3xl font-headline font-semibold text-center mb-8 text-on-surface">A Note for You</h2>
+<div class="neomorph-inset p-8 rounded-2xl bg-background/50">
+<p class="font-body text-lg text-on-surface leading-relaxed text-center italic">
+                            "Dear Mom, thank you for everything you've done for us. Your resilience, your kindness, and your unwavering support have been the foundation of our lives. We are so lucky to have you as our mother. This little tribute is just a small token of our immense love for you. May your day be as beautiful and bright as your heart."
+                        </p>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline font-semibold text-primary">With all our love,</p>
+<p class="text-on-surface-variant">Your Loving Family</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Small Notes / Grid Section -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24" id="notes">
+<div class="neomorph-raised p-8 rounded-2xl">
+<span class="material-symbols-outlined text-primary mb-4">star</span>
+<h4 class="font-semibold mb-2">Our Hero</h4>
+<p class="text-sm text-on-surface-variant">Always there to catch us when we fall and guide us back.</p>
+</div>
+<div class="neomorph-raised p-8 rounded-2xl">
+<span class="material-symbols-outlined text-tertiary mb-4">auto_awesome</span>
+<h4 class="font-semibold mb-2">Teacher</h4>
+<p class="text-sm text-on-surface-variant">Showing us what true kindness and strength look like every day.</p>
+</div>
+<div class="neomorph-raised p-8 rounded-2xl">
+<span class="material-symbols-outlined text-primary mb-4">favorite</span>
+<h4 class="font-semibold mb-2">Best Friend</h4>
+<p class="text-sm text-on-surface-variant">Listening without judgment and loving without limits.</p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="flex flex-col md:flex-row justify-between items-center w-full px-8 py-10 mt-12 bg-background rounded-t-xl shadow-[6px_-6px_12px_rgba(0,0,0,0.08),-6px_-6px_12px_rgba(255,255,255,0.6)]">
+<div class="mb-4 md:mb-0">
+<span class="text-lg font-headline font-semibold text-primary">A Tribute to Mom</span>
+<p class="font-body text-sm text-on-surface-variant dark:text-on-secondary-fixed-variant mt-2">Made with love for Mother's Day 2024</p>
+</div>
+<div class="flex gap-8">
+<a class="text-secondary dark:text-secondary-fixed-dim hover:text-tertiary transition-colors text-sm" href="#">Contact</a>
+<a class="text-secondary dark:text-secondary-fixed-dim hover:text-tertiary transition-colors text-sm" href="#">Privacy Policy</a>
+</div>
+</footer>
+<!-- Floating Action Button (FAB) -->
+<button class="fixed bottom-8 right-8 neomorph-raised p-4 rounded-full bg-primary text-on-primary shadow-xl hover:scale-110 active:shadow-[inset_4px_4px_8px_rgba(0,0,0,0.4)] transition-all z-50">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">edit_note</span>
+</button>
+</body></html>
